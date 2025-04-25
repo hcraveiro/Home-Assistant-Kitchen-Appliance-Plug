@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Kitchen Appliance Plug Setup",
+        "description": "Configure your kitchen appliance plug.",
+        "data": {
+          "name": "Name",
+          "power_sensor_entity_id": "Power Sensor Entity",
+          "minimum_power_threshold": "Minimum Power Threshold (W)",
+          "idle_delay": "Idle Timeout (seconds)",
+          "active_state_name": "State Name When Active",
+          "status_icon": "Status Icon"
+        }
+      }
+    },
+    "options": {
+      "step": {
+        "init": {
+          "title": "Update Settings",
+          "data": {
+            "minimum_power_threshold": "Minimum Power Threshold (W)",
+            "idle_delay": "Idle Timeout (seconds)",
+            "active_state_name": "State Name When Active",
+            "status_icon": "Status Icon"
+          }
+        }
+      }
+    }
+  }
+}

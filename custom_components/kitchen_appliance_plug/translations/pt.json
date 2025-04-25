@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configuração do Plug de Eletrodoméstico",
+        "description": "Configure o plug para o seu eletrodoméstico de cozinha.",
+        "data": {
+          "name": "Nome",
+          "power_sensor_entity_id": "Entidade do Sensor de Potência",
+          "minimum_power_threshold": "Potência Mínima (W)",
+          "idle_delay": "Tempo de Inatividade (segundos)",
+          "active_state_name": "Nome do Estado Ativo",
+          "status_icon": "Ícone do Estado"
+        }
+      }
+    },
+    "options": {
+      "step": {
+        "init": {
+          "title": "Atualizar Definições",
+          "data": {
+            "minimum_power_threshold": "Potência Mínima (W)",
+            "idle_delay": "Tempo de Inatividade (segundos)",
+            "active_state_name": "Nome do Estado Ativo",
+            "status_icon": "Ícone do Estado"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "domain": "kitchen_appliance_plug",
+  "name": "Kitchen Appliance Plug",
+  "version": "1.0.0",
+  "documentation": "",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": [],
+  "config_flow": true,
+  "iot_class": "local_polling"
+}
